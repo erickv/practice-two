@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
+	<style type="text/css">
+
+
+		
+	body{
+		margin: 0 auto;
+		background: yellow;
+		margin: 0 auto;
+		color: #333;
+		text-align: left;
+		font-size: 80px;
+		font-family: 'Montserrat', sans-serif;
+		padding: 0;
+	}
+
+
+
+	</style>
+</head>
+<body>
+
+
+<p id="demo">Hello,<br>I'm Erick.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML; 
+    var res = str.replace("I'm Erick", "I'm a designer");
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
